@@ -122,7 +122,7 @@ sonar-mysql:
 sonar:
   container_name: sonar
   restart: always
-  image: rdocker123/adop-sonar:0.3.2
+  image: rdocker123/adop-sonar:0.3.1
   #build: ../images/docker-sonar/
   net: ${CUSTOM_NETWORK_NAME}
   expose:
